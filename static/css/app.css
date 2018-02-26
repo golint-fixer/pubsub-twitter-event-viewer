@@ -1,0 +1,55 @@
+html {
+  overflow: hidden;
+}
+body {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+}
+#log {
+  background: gray;
+  margin: 16px 16px 16px 16px;
+  padding: 1em 1em 1em 1em;
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  right: 1em;
+  bottom: 1em;
+  overflow: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#log div {
+  padding: 4px;
+  margin: 1px 1px 6px 1px;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  background-color: #F8F8F8;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 58px;
+}
+#log .item {
+  color: #666;
+}
+
+#log img {
+  float: left;
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+}
+
+#log i {
+  font-style: normal;
+}
+
+#log .error {
+  color: red;
+}
+
