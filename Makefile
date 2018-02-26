@@ -5,7 +5,7 @@ BINARY_NAME=tview
 all: test
 
 deps:
-	go get -u github.com/tools/godep
+	go get github.com/tools/godep
 	godep restore
 
 build:
